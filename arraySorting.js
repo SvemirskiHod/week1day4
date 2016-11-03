@@ -16,6 +16,4 @@ students.sort(function(a, b){
   }
 });
 
-
 console.log(students);
-console.log(students[0].age - students[1].age);
