@@ -6,6 +6,7 @@ function map (array, callback) {
   return temp;
 }
 
+
 console.log(map(["ground", "control", "to", "major", "tom"], function(elm){
   return elm.length;
 }));
